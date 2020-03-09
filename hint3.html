@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>3rd hint</title>
+	<style>
+		#images{
+			display: block;
+			margin-right: auto;
+			margin-left: auto;
+			height: 400px;
+			cursor: pointer;
+			border-radius: 50%;
+		}
+	</style>
+</head>
+<body>
+	<img id = "images" alt = "spoken in sequence: the right part of the body and the right tool in the script," src = "will.jpg">
+	<script>
+		function readAloud() {
+			let x = new SpeechSynthesisUtterance("allow you to hear the");
+			window.speechSynthesis.speak(x);
+		}
+		document.getElementById("images").addEventListener("click", readAloud);
+	</script>
+</body>
+</html>
