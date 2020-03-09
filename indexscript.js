@@ -27,47 +27,47 @@ function beforeLight() {
 	if (iter == 0){
 		changeVal = imVal%3 + 2;
 		imId = "im" + changeVal;
-		document.getElementById(imId).src="images/eye.JPG";
+		document.getElementById(imId).src="images/eye.jpg";
 		document.getElementById(imId).alt= changeVal + "an eye";
 		iter++;
 	} else if (iter == 1){
 		changeVal = 4 + imVal%3;
 		imId = "im" + changeVal;
-		document.getElementById(imId).src="images/bulb.JPG";
+		document.getElementById(imId).src="images/bulb.jpg";
 		document.getElementById(imId).alt= changeVal + "a lightbulb, light to light";
 		iter++;
 	} else if (iter == 2){
 		changeVal = 7 + imVal%3;
 		imId = "im" + changeVal;
-		document.getElementById(imId).src="images/proof.JPG";
+		document.getElementById(imId).src="images/proof.jpg";
 		document.getElementById(imId).alt= changeVal + "Meyer's (or Putnam's) Proof of the Existence of God";
 		iter++;
 	} else if (iter == 3){
 		changeVal = 9 + imVal%3;
 		imId = "im" + changeVal;
-		document.getElementById(imId).src="images/figure.JPG";
+		document.getElementById(imId).src="images/figure.jpg";
 		document.getElementById(imId).alt= changeVal + "Vitruvius, the perfect man, the individual visual form";
 		iter++;
 	} else if (iter == 4){
 		changeVal = 12 + imVal%3;
 		imId = "im" + changeVal;
-		document.getElementById(imId).src="images/grid.JPG";
+		document.getElementById(imId).src="images/grid.jpg";
 		document.getElementById(imId).alt= changeVal + "dots on a plane, Cartesian isolation. Mind cleansed of society to seek the light within. I think, therefore...";
 		iter++;
 	} else if (iter == 5){
 		changeVal = 16 + imVal%3;
 		imId = "im" + changeVal;
-		document.getElementById(imId).src="images/proof_figure.JPG";
+		document.getElementById(imId).src="images/proof_figure.jpg";
 		document.getElementById(imId).alt= changeVal + "Meyer's Proof the existence of the Vitruvian man's attempt to ascend to Glory. ...Therefore, I am";
 		iter++;
 	} else if (iter == 6){
 		changeVal = 19 + imVal%3;
 		imId = "im" + changeVal;
-		document.getElementById(imId).src="images/eye_bulb.JPG";
+		document.getElementById(imId).src="images/eye_bulb.jpg";
 		document.getElementById(imId).alt= changeVal + "The eye sees in the light. The ray of sight seeks ray of enlightenment, man-made systems making sight.";
 		iter++
 	} else if (iter == 7) {
-		document.getElementById("im24").src="images/circle.JPG";
+		document.getElementById("im24").src="images/circle.jpg";
 		document.getElementById("im24").alt="24. Lord, if you are the infinite sphere whose center is everywhere and whose circumference is nowhere, then have we not abandoned you? Lord have mercy on us."
 	} else {
 		return;
@@ -79,35 +79,35 @@ function beforeLight() {
 
 function afterDark(imNum){
 	if (imNum == 1){
-		document.getElementById("im6").src="images/eye.JPG";
+		document.getElementById("im6").src="images/eye.jpg";
 		document.getElementById("im6").alt="6: an eye";
-		document.getElementById("im2").src="images/eye.JPG";
+		document.getElementById("im2").src="images/eye.jpg";
 		document.getElementById("im2").alt="2: an eye";
 	} else if (imNum == 4) {
 		document.getElementById("im1").src="images/compgrid1.jpg";
 		document.getElementById("im1").alt="1: The internet has shaped me.";
 		document.getElementById("im6").src="images/compgrid6.jpg";
 		document.getElementById("im6").alt="6: Acoustic, like waves of light spoken into form, a space for voices to call out to me from every direction and for me to call out in every direction as well.";
-		document.getElementById("im5").src="images/grid.JPG";
+		document.getElementById("im5").src="images/grid.jpg";
 		document.getElementById("im5").alt="5: dots on a plane, Cartesian isolation. Mind cleansed of society to seek the light within. I think, therefore...";
 	} else if (imNum == 7) {
 		document.getElementById("im8").src="images/compgrid8.jpg";
 		document.getElementById("im8").alt="8: But what is the hierarchy in our secondary universe of the internet, this strange abstraction from the natural world? How does one begin to find order in an ever changing, ever expanding environment with no beginning, no end?";
 		document.getElementById("im10").src="images/compgrid10.jpg";
 		document.getElementById("im10").alt="10: But how are we to know what that order is? Just because it may be there, that doesn’t mean that we can understand it.";
-		document.getElementById("im3").src="images/eye.JPG";
+		document.getElementById("im3").src="images/eye.jpg";
 		document.getElementById("im3").alt="3: an eye";
 	} else if (imNum == 10) {
-		document.getElementById("im9").src="images/eye.JPG";
+		document.getElementById("im9").src="images/eye.jpg";
 		document.getElementById("im9").alt="9: an eye";
-		document.getElementById("im15").src="images/eye.JPG";
+		document.getElementById("im15").src="images/eye.jpg";
 		document.getElementById("im15").alt="15: an eye";
-		document.getElementById("im12").src="images/eye.JPG";
+		document.getElementById("im12").src="images/eye.jpg";
 		document.getElementById("im12").alt="12: an eye";
 	}else if (imNum == 13) {
 		document.getElementById("im11").src="images/compgrid11.jpg";
 		document.getElementById("im11").alt="11: To find one would be to find the exchange rate between a visual and an acoustic space, a task which we have left, in its rawest form of binary code, for our dear little computers to tackle.";
-		document.getElementById("im18").src="images/proof_figure.JPG";
+		document.getElementById("im18").src="images/proof_figure.jpg";
 		document.getElementById("im18").alt="18: Meyer's Proof the existence of the Vitruvian man's attempt to ascend to Glory. ...Therefore, I am";
 	} else if (imNum == 16) {
 		document.getElementById("im13").src="images/compgrid13.jpg";
@@ -115,56 +115,56 @@ function afterDark(imNum){
 		document.getElementById("im17").src="images/compgrid17.jpg";
 		document.getElementById("im17").alt="17: The cosmos of the internet is perhaps the greatest work of art that we, whoever we are, those of us who are on it, have ever produced.";
 	} else if (imNum == 19) {
-		document.getElementById("im20").src="images/eye.JPG";
+		document.getElementById("im20").src="images/eye.jpg";
 		document.getElementById("im20").alt="20: an eye";
-		document.getElementById("im18").src="images/eye.JPG";
+		document.getElementById("im18").src="images/eye.jpg";
 		document.getElementById("im18").alt="18: an eye";
 	}else if (imNum == 22) {
 		document.getElementById("im19").src="images/compgrid19.jpg";
 		document.getElementById("im19").alt="19: Maybe we have conformed to its image too.";
-		document.getElementById("im20").src="images/eye_bulb.JPG";
+		document.getElementById("im20").src="images/eye_bulb.jpg";
 		document.getElementById("im20").alt="20: The eye sees in the light. The ray of sight seeks ray of enlightenment, man-made systems making sight.";
 	} else if (imNum == 2){
-		document.getElementById("im4").src="images/eye.JPG";
+		document.getElementById("im4").src="images/eye.jpg";
 		document.getElementById("im4").alt="4: an eye";
-		document.getElementById("im1").src="images/eye.JPG";
+		document.getElementById("im1").src="images/eye.jpg";
 		document.getElementById("im1").alt="1: an eye";
 	}else if (imNum == 5) {
 		document.getElementById("im3").src="images/compgrid3.jpg";
 		document.getElementById("im3").alt="3: I grew up nosing around deviantArt and lingering on Lord of the Rings fan sites and browsing the way-back-machine’s archives of historical re-enactors’ homepages that had long gone to ruin.";
 		document.getElementById("im4").src="images/compgrid4.jpg";
 		document.getElementById("im4").alt="4: Has the internet not brought back a space whose center is everywhere and whose margins are nowhere?";
-		document.getElementById("im12").src="images/figure.JPG";
+		document.getElementById("im12").src="images/figure.jpg";
 		document.getElementById("im12").alt="12: Vitruvius, the perfect man, the individual visual form";
 	} else if (imNum == 8) {
 		document.getElementById("im7").src="images/compgrid7.jpg";
 		document.getElementById("im7").alt="7: This, unlike sight, is no longer linear--extending radially from the point of the observer either outwards like a polar graph or introspectively onto the self. It is easy to begin to assign an order starting at the eyes.";
 	} else if (imNum == 11) {
-		document.getElementById("im9").src="images/eye.JPG";
+		document.getElementById("im9").src="images/eye.jpg";
 		document.getElementById("im9").alt="9: an eye";
 	}else if (imNum == 14) {
 		document.getElementById("im18").src="images/compgrid18.jpg";
 		document.getElementById("im18").alt="18: We have made it in our image, maybe.";
 	} else if (imNum == 17) {
-		document.getElementById("im19").src="images/eye.JPG";
+		document.getElementById("im19").src="images/eye.jpg";
 		document.getElementById("im19").alt="19: an eye";
-		document.getElementById("im15").src="images/eye.JPG";
+		document.getElementById("im15").src="images/eye.jpg";
 		document.getElementById("im15").alt="15: an eye";
-		document.getElementById("im18").src="images/eye.JPG";
+		document.getElementById("im18").src="images/eye.jpg";
 		document.getElementById("im18").alt="18: an eye";
 	} else if (imNum == 23) {
 		document.getElementById("im15").src="images/compgrid15.jpg";
 		document.getElementById("im15").alt="15: Asking, I find. Knocking, the door of the drawing room is opened to me, and I am welcomed into the salon of the like minded. Or the dissenters, whichever I choose. We are nearer to one another now, at least the half of us who are tapped into the wires of the net.";
 		document.getElementById("im24").src="images/compgrid24.jpg";
 		document.getElementById("im24").alt="24: Will those whose hands are idle be left to starve? Or will they be consumed?";
-		document.getElementById("im22").src="images/bulb.JPG";
+		document.getElementById("im22").src="images/bulb.jpg";
 		document.getElementById("im22").alt="22: a lightbulb, light to light";
 	} else if (imNum == 3) {
-		document.getElementById("im1").src="images/eye.JPG";
+		document.getElementById("im1").src="images/eye.jpg";
 		document.getElementById("im1").alt="1: an eye";
-		document.getElementById("im5").src="images/eye.JPG";
+		document.getElementById("im5").src="images/eye.jpg";
 		document.getElementById("im5").alt="5: an eye";
-		document.getElementById("im9").src="images/eye.JPG";
+		document.getElementById("im9").src="images/eye.jpg";
 		document.getElementById("im9").alt="9: an eye";
 	} else if (imNum == 6) {
 		document.getElementById("im2").src="images/compgrid2.jpg";
@@ -175,11 +175,11 @@ function afterDark(imNum){
 		document.getElementById("im5").src="images/compgrid5.jpg";
 		document.getElementById("im5").alt="5: This is, at least, what McLuhan seemed to believe.";
 	} else if (imNum == 12) {
-		document.getElementById("im13").src="images/eye.JPG";
+		document.getElementById("im13").src="images/eye.jpg";
 		document.getElementById("im13").alt="13: an eye";
-		document.getElementById("im11").src="images/eye.JPG";
+		document.getElementById("im11").src="images/eye.jpg";
 		document.getElementById("im11").alt="11: an eye";
-		document.getElementById("im10").src="images/eye.JPG";
+		document.getElementById("im10").src="images/eye.jpg";
 		document.getElementById("im10").alt="10: an eye";
 	} else if (imNum == 15) {
 		document.getElementById("im12").src="images/compgrid12.jpg";
@@ -199,11 +199,11 @@ function afterDark(imNum){
 		document.getElementById("im22").src="images/compgrid22.jpg";
 		document.getElementById("im22").alt="22. It certainly has changed us. It may take a while to see how much it has.";
 	} else if (imNum == 24) {
-		document.getElementById("im20").src="images/eye.JPG";
+		document.getElementById("im20").src="images/eye.jpg";
 		document.getElementById("im20").alt="20: an eye";
-		document.getElementById("im22").src="images/eye.JPG";
+		document.getElementById("im22").src="images/eye.jpg";
 		document.getElementById("im22").alt="22: an eye";
-		document.getElementById("im16").src="images/eye.JPG";
+		document.getElementById("im16").src="images/eye.jpg";
 		document.getElementById("im16").alt="16: an eye";
 	}
 }
