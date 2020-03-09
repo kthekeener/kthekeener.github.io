@@ -1,4 +1,5 @@
 div, footer, header, main, nav, section {
+	font-family: sans-serif;
     align-items: stretch;
     border: 0 solid #000;
     box-sizing: border-box;
@@ -11,11 +12,6 @@ div, footer, header, main, nav, section {
     position: relative;
 }
 
-a, a:hover, a:active, a:focus, button, button:hover, button:active, button:focus
-{
-	outline: 0px solid transparent;
-}
-
 body{
 	display:flex;
 	margin:0px;
@@ -23,14 +19,21 @@ body{
 	flex-direction:row;
 }
 
+a, a:hover, a:visited{
+	text-decoration: none;
+	color: black;
+	cursor: default;
+}
+
 .column{
 	width:270px;
-	height: 5000px;
+	height: 2500px;
 }
 
 .column>p{
 	color: white;
 	user-select: none;
+	padding-bottom: 200px;
 }
 
 .page{
@@ -38,7 +41,6 @@ body{
 	padding: 30px 20px 0;
 	margin: 0px;
 	width: 935px;
-	height: 5000px;
 	flex-direction:column;
 }
 
@@ -57,7 +59,7 @@ header{
 	flex-direction: row;
 }
 
-.icon{
+#icon{
     top: -7px;
     left: -7px;
     width: 150px;
@@ -69,11 +71,20 @@ header{
     border-radius: 50%;
     cursor: pointer;
 }
-.icon>img{
+#icon>img{
 	width: 100%;
 	height: 100%;
 	border-radius:50%;
 }
+
+#ear{
+    height: 44px;
+    margin-top: 53px;
+    margin-left: 60px;
+	position: absolute;
+	cursor: pointer;
+}
+
 .info{
 	flex-direction: column;
 }
@@ -116,9 +127,9 @@ header{
 	margin-bottom: 28px;
 }
 
-#im1-1, #im1-2, #im1-3, #im2-1, #im2-2, #im2-3, #im3-1, #im3-2, #im3-3,
-#im4-1, #im4-2, #im4-3, #im5-1, #im5-2, #im5-3, #im6-1, #im6-2, #im6-3,
-#im7-1, #im7-2, #im7-3, #im8-1, #im8-2, #im8-3, #im9-1, #im9-2, #im9-3{
+#b1-1, #b1-2, #b1-3, #b2-1, #b2-2, #b2-3, #b3-1, #b3-2, #b3-3,
+#b4-1, #b4-2, #b4-3, #b5-1, #b5-2, #b5-3, #b6-1, #b6-2, #b6-3,
+#b7-1, #b7-2, #b7-3, #b8-1, #b8-2, #b8-3{
 	margin-right:28px;
 	margin-top: 0px;
 	margin-bottom: 0px;
@@ -130,11 +141,9 @@ header{
 	padding: 0px;
 }
 
-#im1-1>img, #im1-2>img, #im1-3>img, #im2-1>img, #im2-2>img, #im2-3>img, 
-#im3-1>img, #im3-2>img, #im3-3>img, #im4-1>img, #im4-2>img, #im4-3>img, 
-#im5-1>img, #im5-2>img, #im5-3>img, #im6-1>img, #im6-2>img, #im6-3>img, 
-#im7-1>img, #im7-2>img, #im7-3>img, #im8-1>img, #im8-2>img, #im8-3>img, 
-#im9-1>img, #im9-2>img, #im9-3>img{
+#im1, #im2, #im3, #im4, #im5, #im6, #im7, #im8, #im9, 
+#im10, #im11, #im12, #im13, #im14, #im15, #im16, #im17, #im18, 
+#im19, #im20, #im21, #im22, #im23, #im24{
 	width:293px;
 	height:293px;
 }
