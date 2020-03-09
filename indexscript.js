@@ -145,11 +145,27 @@ function afterDark(imNum){
 	}else if (imNum == 14) {
 		document.getElementById("im18").src="images/compgrid18.jpg";
 		document.getElementById("im18").alt="18: We have made it in our image, maybe.";
+	} else if (imNum == 17) {
+		document.getElementById("im19").src="images/eye.JPG";
+		document.getElementById("im19").alt="19: an eye";
+		document.getElementById("im15").src="images/eye.JPG";
+		document.getElementById("im15").alt="15: an eye";
+		document.getElementById("im18").src="images/eye.JPG";
+		document.getElementById("im18").alt="18: an eye";
 	} else if (imNum == 23) {
 		document.getElementById("im15").src="images/compgrid15.jpg";
 		document.getElementById("im15").alt="15: Asking, I find. Knocking, the door of the drawing room is opened to me, and I am welcomed into the salon of the like minded. Or the dissenters, whichever I choose. We are nearer to one another now, at least the half of us who are tapped into the wires of the net.";
 		document.getElementById("im24").src="images/compgrid24.jpg";
 		document.getElementById("im24").alt="24: Will those whose hands are idle be left to starve? Or will they be consumed?";
+		document.getElementById("im22").src="images/bulb.JPG";
+		document.getElementById("im22").alt="22: a lightbulb, light to light";
+	} else if (imNum == 3) {
+		document.getElementById("im1").src="images/eye.JPG";
+		document.getElementById("im1").alt="1: an eye";
+		document.getElementById("im5").src="images/eye.JPG";
+		document.getElementById("im5").alt="5: an eye";
+		document.getElementById("im9").src="images/eye.JPG";
+		document.getElementById("im9").alt="9: an eye";
 	} else if (imNum == 6) {
 		document.getElementById("im2").src="images/compgrid2.jpg";
 		document.getElementById("im2").alt="2: In a large part it has been my home.";
@@ -158,6 +174,13 @@ function afterDark(imNum){
 	} else if (imNum == 9) {
 		document.getElementById("im5").src="images/compgrid5.jpg";
 		document.getElementById("im5").alt="5: This is, at least, what McLuhan seemed to believe.";
+	} else if (imNum == 12) {
+		document.getElementById("im13").src="images/eye.JPG";
+		document.getElementById("im13").alt="13: an eye";
+		document.getElementById("im11").src="images/eye.JPG";
+		document.getElementById("im11").alt="11: an eye";
+		document.getElementById("im10").src="images/eye.JPG";
+		document.getElementById("im10").alt="10: an eye";
 	} else if (imNum == 15) {
 		document.getElementById("im12").src="images/compgrid12.jpg";
 		document.getElementById("im12").alt="12: No one has a mind that can hold the answers. So enlightened or not, I am still sufficient. I play this tangled chaos by ear just like everybody else.";
@@ -175,6 +198,13 @@ function afterDark(imNum){
 		document.getElementById("im21").alt="21. If the net is an environment, the soil for a culture, planting will be done. Harvesting, reaping. ";
 		document.getElementById("im22").src="images/compgrid22.jpg";
 		document.getElementById("im22").alt="22. It certainly has changed us. It may take a while to see how much it has.";
+	} else if (imNum == 24) {
+		document.getElementById("im20").src="images/eye.JPG";
+		document.getElementById("im20").alt="20: an eye";
+		document.getElementById("im22").src="images/eye.JPG";
+		document.getElementById("im22").alt="22: an eye";
+		document.getElementById("im16").src="images/eye.JPG";
+		document.getElementById("im16").alt="16: an eye";
 	}
 }
 
